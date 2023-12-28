@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './app/useState/Counter'
+import StyleEmlent from './app/UseRef/StyleEmlent';
+import UseMemo from './app/UseMemo/UseMemo';
+import CounterRead from './app/Redux/counterRead';
+import Todogame from './XoGame/todogame';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Counter/>
+      <StyleEmlent/>
+      <UseMemo/>  */}
+      <CounterRead />
+      {/* <Todogame/> */}
     </div>
   );
 }
