@@ -44,7 +44,9 @@ const userSlice = createSlice({
                 state.loading = false;
                 state.error = action.error.message;
             })
+
+            // 
     }
 })
 
-export const getUsersReducer = userSlice.reducer;
+export const userReducer = userSlice.reducer;

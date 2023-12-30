@@ -9,6 +9,7 @@ import Todogame from './XoGame/todogame';
 import User from './app/UserCrud/userForm';
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import UserForm from './app/UserCrud/userForm';
+import UserList from './app/UserCrud/userList';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
     // </div>
     <Router>
       <Routes>
-        <Route path='/' Component={UserList}/>
+        <Route path= '/' Component={UserList}/>
         <Route path= '/createUser' Component={UserForm}/>
       </Routes>
     </Router>

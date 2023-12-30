@@ -1,0 +1,19 @@
+.user-list{
+   display: flex;
+   justify-content: space-between;
+}
+.createbtn{
+    padding: 10px;
+}
+.container{
+    background-color: #d4c2c2;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 6px 6px 14px 2px #b09393;
+}
+.icons{
+    margin: 10px;
+    cursor: pointer;
+}
