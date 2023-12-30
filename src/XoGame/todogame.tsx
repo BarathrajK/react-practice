@@ -22,6 +22,7 @@ const Todogame = () => {
         if (calculateWinner(square)) {
             return
         }
+        
         square[i] = isX ? 'X' : 'O';
         setSquare(square);
         setIsX(!isX);
